@@ -72,10 +72,36 @@ console.info(resultado)
 //Defina una función helloque devuelva 'Hello world!'. 
 //Imprimirla en consola con un string que nos calare que ejercicio es.
 
+//-------------------------------------------------------
+//function helloque () {
+//  return "Hello World!"
+//}
+
+//let greet = helloque()
+
+//console.info(greet)//
+
+//-------------------------------------------------------
+
+
+
 //2
 //Defina dos funciones.
 //La primera función adebería devolver 'Hello a!'y la segunda función bdebería devolver 'Hello b!'.
 //Imprimirla en consola con un string que nos calare que ejercicio es.
+//-------------------------------------------------
+//function helloquea () {
+//  return "Hello a!"
+//}
+
+//function helloqueb () {
+//  return "Hello b!"
+//}
+
+//  var greet = helloquea() + helloqueb()
+
+//  console.info(greet)
+//-------------------------------------------------------
 
 //3
 //Defina una función greet que devuelva el valor 'Haydo!'.
@@ -83,16 +109,31 @@ console.info(resultado)
 //Llame a la función greety asigne el resultado de la llamada a la variable salutation.
 //Imprimirla en consola con un string que nos calare que ejercicio es.
 
+//-------------------------------------------------------
+//function greet () {
+//  return "Haydo!"
+//}
 
+
+//let salutation = greet()
+
+//function greety () {
+//  return salutation
+//}
+
+//greatins = greety ()
+
+//console.info(greatins)
+//-------------------------------------------------------
 //Parámetros
 
-function give(input) {
-  return input;
-}
+//function give(input) {
+//  return input;
+//}
 
 //definimos una función que simplemente devuelve el parámetro input. Los parámetros son variables. 
 
-let result = give('apple');
+//let result = give('apple');
 
 //llamamos a la función y le pasamos el argumento 'apple'. La función será ejecutada. 
 
@@ -103,3 +144,14 @@ let result = give('apple');
 //Ejercicio
 //Escribir una función echo que también devuelva el parámetro pasado. 
 //echo('Greta') debe volver 'Greta'y echo('CO2') debe volver'CO2'
+
+function echo(input) {
+  return input;
+}
+ 
+let result1 = echo("Greta")
+result2 = echo ("CO2")
+
+console.info(result2)
+
+
