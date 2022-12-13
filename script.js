@@ -106,7 +106,7 @@ console.info(resultado)
 //3
 //Defina una función greet que devuelva el valor 'Haydo!'.
 //Declarar una variable salutation. 
-//Llame a la función greety asigne el resultado de la llamada a la variable salutation.
+//Llame a la función greet y asigne el resultado de la llamada a la variable salutation.
 //Imprimirla en consola con un string que nos calare que ejercicio es.
 
 //-------------------------------------------------------
@@ -117,13 +117,9 @@ console.info(resultado)
 
 //let salutation = greet()
 
-//function greety () {
-//  return salutation
-//}
+//resultado = greet (salutation)
 
-//greatins = greety ()
-
-//console.info(greatins)
+//console.info(resultado)
 //-------------------------------------------------------
 //Parámetros
 
@@ -152,6 +148,6 @@ function echo(input) {
 let result1 = echo("Greta")
 result2 = echo ("CO2")
 
-console.info(result2)
+console.info(result1)
 
 
